@@ -1,11 +1,16 @@
-function Home(){
-  <>
-    <nav>
-      <ul>
-      <li>Movies</li>
-      <li>Favorites</li>
-      </ul>
-    </nav>
+function Home() {
+  return <>
+  <div className="container">
+   <div className="search-input">
+    <input type="text" className="" placeholder="search movies"/>
+    <button className="btn btn-primary">Search</button>
+   </div>
+   <div className="movies-grid">
+    
+   </div>
+  </div>
+   
   </>
 }
-  export default Home
+
+export default Home
